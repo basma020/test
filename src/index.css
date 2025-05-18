@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #000000;
+  --accent-color: #000000;
+  --text-color: #000000;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('https://images.pexels.com/photos/5175620/pexels-photo-5175620.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.menu-item-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-black text-white py-2 px-6 rounded-md hover:bg-gray-900 transition duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-black text-white py-2 px-6 rounded-md hover:bg-gray-900 transition duration-300;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-medium text-center mb-8 text-black;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
