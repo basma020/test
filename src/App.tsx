@@ -20,7 +20,7 @@ function App() {
 
   return (
     <CartProvider>
-      <div className="flex flex-col min-h-screen font-sans bg-[#FFFDF5]">
+      <div className="flex flex-col min-h-screen font-sans bg-[#F5F7FA]">
         <Navbar toggleCart={toggleCart} />
         
         <main className="flex-grow">

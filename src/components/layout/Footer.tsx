@@ -3,12 +3,12 @@ import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter } from 'lucide
 
 const Footer = () => {
   return (
-    <footer className="bg-[#2A2A2A] text-white pt-12 pb-6">
+    <footer className="bg-[#2C3E50] text-white pt-12 pb-6">
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Restaurant Info */}
           <div>
-            <h3 className="text-xl font-serif mb-4 text-[#F5F5DC]">La Bella Italia</h3>
+            <h3 className="text-xl font-serif mb-4 text-[#BDC3C7]">La Bella Italia</h3>
             <p className="mb-4 text-gray-300">
               Authentic Italian cuisine in a warm and welcoming atmosphere. Bringing a taste of Italy to your table since 1998.
             </p>
@@ -27,22 +27,22 @@ const Footer = () => {
           
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-serif mb-4 text-[#F5F5DC]">Contact Us</h3>
+            <h3 className="text-xl font-serif mb-4 text-[#BDC3C7]">Contact Us</h3>
             <ul className="space-y-3 text-gray-300">
               <li className="flex items-start">
-                <MapPin className="w-5 h-5 mr-3 mt-1 text-[#708238]" />
+                <MapPin className="w-5 h-5 mr-3 mt-1 text-[#3498DB]" />
                 <span>123 Pasta Street, Italian Quarter, City</span>
               </li>
               <li className="flex items-center">
-                <Phone className="w-5 h-5 mr-3 text-[#708238]" />
+                <Phone className="w-5 h-5 mr-3 text-[#3498DB]" />
                 <span>(123) 456-7890</span>
               </li>
               <li className="flex items-center">
-                <Mail className="w-5 h-5 mr-3 text-[#708238]" />
+                <Mail className="w-5 h-5 mr-3 text-[#3498DB]" />
                 <span>info@labellaitalia.com</span>
               </li>
               <li className="flex items-start">
-                <Clock className="w-5 h-5 mr-3 mt-1 text-[#708238]" />
+                <Clock className="w-5 h-5 mr-3 mt-1 text-[#3498DB]" />
                 <div>
                   <p>Monday–Saturday: 12:00–22:00</p>
                   <p>Sunday: Closed</p>
@@ -53,7 +53,7 @@ const Footer = () => {
           
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-serif mb-4 text-[#F5F5DC]">Quick Links</h3>
+            <h3 className="text-xl font-serif mb-4 text-[#BDC3C7]">Quick Links</h3>
             <ul className="space-y-2 text-gray-300">
               <li>
                 <Link to="/menu" className="hover:text-white transition">

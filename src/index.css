@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --primary-color: #000000;
-  --secondary-color: #000000;
-  --accent-color: #000000;
-  --text-color: #000000;
+  --primary-color: #2C3E50;
+  --secondary-color: #34495E;
+  --accent-color: #3498DB;
+  --text-color: #2C3E50;
 }
 
 body {
@@ -19,8 +19,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('https://images.pexels.com/photos/5175620/pexels-photo-5175620.jpeg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,15 +42,15 @@ h1, h2, h3, h4, h5, h6 {
 
 @layer components {
   .btn-primary {
-    @apply bg-black text-white py-2 px-6 rounded-md hover:bg-gray-900 transition duration-300;
+    @apply bg-[#2C3E50] text-white py-2 px-6 rounded-md hover:bg-[#34495E] transition duration-300;
   }
   
   .btn-secondary {
-    @apply bg-black text-white py-2 px-6 rounded-md hover:bg-gray-900 transition duration-300;
+    @apply bg-[#34495E] text-white py-2 px-6 rounded-md hover:bg-[#2C3E50] transition duration-300;
   }
   
   .section-title {
-    @apply text-3xl md:text-4xl font-medium text-center mb-8 text-black;
+    @apply text-3xl md:text-4xl font-medium text-center mb-8 text-[#2C3E50];
   }
   
   .container-custom {

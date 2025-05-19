@@ -22,9 +22,9 @@ const Button: React.FC<ButtonProps> = ({
   const baseStyles = 'py-2 px-6 rounded-md transition duration-300 font-medium focus:outline-none focus:ring-2 focus:ring-offset-2';
   
   const variantStyles = {
-    primary: 'bg-black hover:bg-gray-900 text-white focus:ring-black',
-    secondary: 'bg-black hover:bg-gray-900 text-white focus:ring-black',
-    outline: 'border border-black text-black hover:bg-gray-100 focus:ring-black'
+    primary: 'bg-[#2C3E50] hover:bg-[#34495E] text-white focus:ring-[#2C3E50]',
+    secondary: 'bg-[#34495E] hover:bg-[#2C3E50] text-white focus:ring-[#34495E]',
+    outline: 'border border-[#2C3E50] text-[#2C3E50] hover:bg-gray-100 focus:ring-[#2C3E50]'
   };
   
   const widthStyles = fullWidth ? 'w-full' : '';
